@@ -28,7 +28,7 @@
       </template>
 
       <template #cell(permissionTypeDescription)="data">
-        {{ data.item.permissionType.description }}
+        {{ data.item.permissionTypeDescription }}
       </template>
 
       <template #cell(id)="data">
